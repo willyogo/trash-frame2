@@ -92,7 +92,7 @@ export default async function Home({
         state={state}
         previousFrame={previousFrame}
       >
-        {/* <FrameImage src="https://framesjs.org/og.png" /> */}
+        {/* <FrameImage src="https://raw.githubusercontent.com/willyogo/trash-frame2/0943b5e6c0b79b2e067014b1ce24c771d229593e/images/Trash%20frame%20BG.png" /> */}
         <FrameImage>
           <div tw="w-full h-full bg-slate-700 text-white justify-center items-center">
             {frameMessage?.inputText ? frameMessage.inputText : "Hello world"}
